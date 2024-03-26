@@ -10,9 +10,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Résultat du Calcul</title>
-    
-    <!-- Intégration de Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../html/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -34,7 +32,6 @@
             <button type="submit" class="btn btn-primary btn-block">Calculer</button>
         </form>
 
-        <%-- Code de calcul et résultat ici --%>
         <div class="mt-4 text-center mx-auto">
             <% 
                 if (request.getMethod().equals("POST")) {
@@ -83,7 +80,5 @@
         </div>
     </div>
 
-    <!-- Intégration de Bootstrap JavaScript (optionnel si vous n'utilisez pas de composants nécessitant JavaScript) -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
